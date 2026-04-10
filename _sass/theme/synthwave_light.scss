@@ -1,20 +1,50 @@
 /* ==========================================================================
-   Synthwave (subtle) — light mode
-   ========================================================================== */
-
-:root {
-  --global-base-color            : #6b5d7a;
-  --global-bg-color              : #faf7fb;
-  --global-border-color          : #e8dff0;
-  --global-code-background-color : #f3edf7;
-  --global-code-text-color       : #2a2438;
-  --global-fig-caption-color     : #6b5d7a;
-  --global-link-color            : #8b3d9e;
-  --global-link-color-hover      : #c14d8a;
-  --global-link-color-visited    : #6b3d8f;
-  --global-masthead-link-color   : #2a2438;
-  --global-masthead-link-color-hover : #c14d8a;
-  --global-text-color            : #2a2438;
-  --global-text-color-light      : #6b5d7a;
-  --global-thead-color           : #e8dff0;
+    SYNTHWAVE THEME - LIGHT VERSION
+    ========================================================================== */
+/* Color codes used for the theme */
+$primary-color              : #c14d8a;
+$gray                       : #6b5d7a;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+$background                 : #faf7fb;
+$background-light           : mix(#000, $background, 5%);
+$background-lighter         : mix(#000, $background, 10%);
+$text                       : #2a2438;
+$link                       : #8b3d9e;
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);
+/* Color codes used for the site */
+$danger-color               : #c14d5e;
+$info-color                 : #3d8f9e;
+$notice-color               : #6b5d7a;
+$success-color              : #5e8f7a;
+$warning-color              : #c18a4d;
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+/* Light theme for the site */
+html[data-theme="light"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$light-gray};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #f3edf7;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$dark-gray};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #c14d8a;
+    --global-link-color-visited         : #{$link-dark};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$primary-color};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$dark-gray};
+    --global-thead-color                : #{$background-lighter};
 }
