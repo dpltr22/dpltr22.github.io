@@ -1,5 +1,5 @@
 ---
-title: " 	Introduction to quantitative text analysis"
+title: "Introduction to quantitative text analysis"
 collection: teaching
 type: "graduate course"
 permalink: /teaching/2025-winter-teaching-2
