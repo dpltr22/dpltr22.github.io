@@ -1,5 +1,5 @@
 ---
-  title: "Introduction to the political system of Germany and the EU"
+title: "Introduction to the political system of Germany and the EU"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2026-spring-teaching-1
