@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Synthwave (subtle) — dark mode
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-base-color            : #b8a5c9;
+    --global-bg-color              : #1a1628;
+    --global-border-color          : #2e2540;
+    --global-code-background-color : #22192f;
+    --global-code-text-color       : #e8dff0;
+    --global-fig-caption-color     : #9b8ab0;
+    --global-link-color            : #d96baf;
+    --global-link-color-hover      : #6bd4e0;
+    --global-link-color-visited    : #b87acc;
+    --global-masthead-link-color   : #e8dff0;
+    --global-masthead-link-color-hover : #d96baf;
+    --global-text-color            : #e8dff0;
+    --global-text-color-light      : #9b8ab0;
+    --global-thead-color           : #2e2540;
+  }
+}
