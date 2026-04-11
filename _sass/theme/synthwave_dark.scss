@@ -121,3 +121,16 @@ html[data-theme="dark"] .masthead::after {
     box-shadow: 0 0 8px rgba(138, 0, 231, 0.4);
     z-index: 11;
 }
+
+/* Sidebar tucks behind the masthead instead of overlapping it */
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .author__avatar,
+html[data-theme="dark"] .author__content,
+html[data-theme="dark"] .author__urls-wrapper {
+    z-index: 5 !important;
+}
+
+/* Make sure the masthead always wins */
+html[data-theme="dark"] .masthead {
+    z-index: 100 !important;
+}
