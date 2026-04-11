@@ -21,4 +21,6 @@ Paltra, Dylan. (2026). Sitting On The Fence: Examining intra-party heterogeneity
 
 Paltra, Dylan, Bartolomeo Cappellina, Christopher Wratil, Simon Fernezelyi, and Lóránt Ó hAnnracháin. (2024). The Citizens’ Concept of Representation: Evidence from an Open-Ended Questions Survey
 
+Schmidt, Felix, Dylan Paltra, Lena Masch, Marius Sältzer. (2024). Narcissistic Politicians Post More Self‑Promotional Images on Social Media.
+
 Paltra, Dylan, and Karsten Donnay. (2023). More Diverse Than They Think: Citizens’ (Mis)perceptions of Diversity in Their News Consumption.
