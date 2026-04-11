@@ -7,3 +7,6 @@ venue: "Carl von Ossietzky Universität Oldenburg, Institute for Social Sciences
 date: 2026-04-01
 location: "Oldenburg, Germany"
 ---
+
+- Weekly seminar for first-year Bachelor students
+- Teaching language: German

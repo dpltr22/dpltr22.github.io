@@ -7,3 +7,6 @@ venue: "Carl von Ossietzky Universität Oldenburg, Institute for Social Sciences
 date: 2025-10-01
 location: "Oldenburg, Germany"
 ---
+
+- Weekly seminar for Masters and PhD Students
+- Teaching language: English
