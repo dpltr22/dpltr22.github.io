@@ -4,7 +4,7 @@
 /* Color palette */
 /* Mint    #00e78a - primary accent, links */
 /* Indigo  #5060c0 - info / secondary accent */
-/* Violet  #8a00e7 - background hue, hover flourish */
+/* Violet  #8a00e7 - background hue, separator line */
 /* Rose    #bb496c - danger / warm accent */
 /* Orange  #e78a00 - warning */
 
@@ -93,8 +93,22 @@ html[data-theme="dark"] .page__footer {
     z-index: 1;
 }
 
-/* Masthead stays on top of everything, including the sticky sidebar */
+/* Masthead: transparent so the body gradient shows through seamlessly */
 html[data-theme="dark"] .masthead {
     position: relative;
     z-index: 10;
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+/* Violet separator line below the navigation */
+html[data-theme="dark"] .masthead::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #8a00e7;
+    box-shadow: 0 0 8px rgba(138, 0, 231, 0.4);
 }
