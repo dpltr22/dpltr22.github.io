@@ -86,27 +86,26 @@ html[data-theme="dark"] body::before {
     50%      { opacity: 0.75; }
 }
 
-/* Keep content above the shimmer overlay */
-html[data-theme="dark"] #main,
-html[data-theme="dark"] .page__footer {
-    position: relative;
-    z-index: 1;
-}
-
-/* Masthead and all its inner wrappers: fully transparent */
+/* Nuclear masthead transparency */
 html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead *,
 html[data-theme="dark"] .masthead__inner-wrap,
 html[data-theme="dark"] .masthead__menu,
-html[data-theme="dark"] .greedy-nav {
-    position: relative;
+html[data-theme="dark"] .masthead__menu ul,
+html[data-theme="dark"] .masthead__menu li,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .greedy-nav ul,
+html[data-theme="dark"] .greedy-nav li,
+html[data-theme="dark"] .visible-links,
+html[data-theme="dark"] .hidden-links {
     background: transparent !important;
     background-color: transparent !important;
     border: none !important;
-    border-bottom: none !important;
     box-shadow: none !important;
 }
 
 html[data-theme="dark"] .masthead {
+    position: relative;
     z-index: 10;
 }
 
