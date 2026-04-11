@@ -93,12 +93,21 @@ html[data-theme="dark"] .page__footer {
     z-index: 1;
 }
 
-/* Masthead: transparent so the body gradient shows through seamlessly */
-html[data-theme="dark"] .masthead {
+/* Masthead and all its inner wrappers: fully transparent */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead__inner-wrap,
+html[data-theme="dark"] .masthead__menu,
+html[data-theme="dark"] .greedy-nav {
     position: relative;
-    z-index: 10;
     background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
     border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+html[data-theme="dark"] .masthead {
+    z-index: 10;
 }
 
 /* Violet separator line below the navigation */
@@ -111,4 +120,5 @@ html[data-theme="dark"] .masthead::after {
     height: 2px;
     background: #8a00e7;
     box-shadow: 0 0 8px rgba(138, 0, 231, 0.4);
+    z-index: 11;
 }
