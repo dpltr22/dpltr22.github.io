@@ -93,9 +93,7 @@ html[data-theme="dark"] .page__footer {
     z-index: 1;
 }
 
-/* Masthead: normal positioning, transparent, no borders.
-   Sits at the top of the page and scrolls away naturally with the content. */
-html[data-theme="dark"] .masthead,
+/* Masthead wrappers: transparent, no borders */
 html[data-theme="dark"] .masthead__inner-wrap,
 html[data-theme="dark"] .masthead__menu,
 html[data-theme="dark"] .masthead__menu ul,
@@ -111,8 +109,19 @@ html[data-theme="dark"] .hidden-links {
     box-shadow: none !important;
 }
 
+/* Masthead: fixed at top of viewport, always visible */
 html[data-theme="dark"] .masthead {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0, 231, 138, 0.10) 0%, transparent 60%),
+        linear-gradient(180deg, #141028 0%, #1a1438 100%) !important;
+    background-attachment: fixed !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* Violet separator line below the navigation */
@@ -125,4 +134,16 @@ html[data-theme="dark"] .masthead::after {
     height: 2px;
     background: #8a00e7;
     box-shadow: 0 0 8px rgba(138, 0, 231, 0.4);
+}
+
+/* Push page content down so it isn't hidden behind the fixed masthead */
+html[data-theme="dark"] #main {
+    padding-top: 70px;
+}
+
+/* Sidebar: sticky so it stays in view while main content scrolls */
+html[data-theme="dark"] .sidebar {
+    position: sticky !important;
+    top: 90px !important;
+    align-self: flex-start;
 }
