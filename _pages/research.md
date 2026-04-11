@@ -13,8 +13,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
----
-
 ## Working Papers
 
 Diener, Julius, and Dylan Paltra. (2026). How politicians objectify women in political discourse.
