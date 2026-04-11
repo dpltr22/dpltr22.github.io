@@ -2,22 +2,22 @@
     SYNTHWAVE THEME - DARK VERSION
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #d96baf;
-$gray                       : #9b8ab0;
+$primary-color              : #6be0b4;
+$gray                       : #8aa8b0;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $background                 : #1a1628;
 $background-light           : mix(#fff, $background, 10%);
 $background-lighter         : mix(#fff, $background, 20%);
-$text                       : #e8dff0;
-$link                       : #d96baf;
+$text                       : #e8f5ef;
+$link                       : #6be0b4;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 /* Color codes used for the site */
 $danger-color               : #ee5f7b;
-$info-color                 : #6bd4e0;
-$notice-color               : #9b8ab0;
+$info-color                 : #b088e8;
+$notice-color               : #8aa8b0;
 $success-color              : #7ac4a8;
 $warning-color              : #e8b06b;
 /* Other basic settings for the template */
@@ -40,11 +40,49 @@ html[data-theme="dark"] {
     --global-code-text-color            : #{$text};
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
-    --global-link-color-hover           : #6bd4e0;
+    --global-link-color-hover           : #b5f5d8;
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #f3edf7;
     --global-thead-color                : #{$background-lighter};
+}
+
+/* ==========================================================================
+    Synthwave shimmer background
+    ========================================================================== */
+html[data-theme="dark"] body {
+    background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(107, 224, 180, 0.10) 0%, transparent 60%),
+        radial-gradient(ellipse 90% 60% at 50% 100%, rgba(176, 136, 232, 0.14) 0%, transparent 60%),
+        linear-gradient(180deg, #1a1628 0%, #241a38 50%, #1a1628 100%);
+    background-attachment: fixed;
+    position: relative;
+}
+
+html[data-theme="dark"] body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        linear-gradient(rgba(107, 224, 180, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(176, 136, 232, 0.035) 1px, transparent 1px);
+    background-size: 80px 80px;
+    z-index: 0;
+    animation: synthwave-shimmer 10s ease-in-out infinite;
+}
+
+@keyframes synthwave-shimmer {
+    0%, 100% { opacity: 0.45; }
+    50%      { opacity: 0.75; }
+}
+
+/* Keep content above the overlay */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] #main,
+html[data-theme="dark"] .page__footer {
+    position: relative;
+    z-index: 1;
 }
