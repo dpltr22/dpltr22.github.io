@@ -22,3 +22,9 @@ I am further interested in
 - Methods of causal inference such as Regression-Discontinuity-Designs.
 - Masculinity and benevolent sexism in politics.
 - Political psychology of citizens news consumption.
+
+News
+======
+April 2026
+: I will present two of my current working papers at COMPTEXT in Birmingham.
+: I will co-teach a workshop with Alona Dolinsky on Group Appeal Detection.
