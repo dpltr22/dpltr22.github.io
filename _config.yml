@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Dylan Paltra"
   pronouns         : "he/him"  
-  bio              : "PhD Student of Political Science"
-  location         : "Oldenburg"
-  employer         : "Carl von Ossietzky Universität Oldenburg"
+  bio              : "PhD Student of Political Science at Carl von Ossietzky Universität Oldenburg"
+  location         : "Bremen"
+  employer         : # employer
   uri              : # URL
   email            : "dylan.paltra@uol.de" 
 
