@@ -89,7 +89,14 @@ html[data-theme="dark"] body::before {
 /* Keep content above the overlay */
 html[data-theme="dark"] .masthead,
 html[data-theme="dark"] #main,
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .author__avatar,
 html[data-theme="dark"] .page__footer {
     position: relative;
     z-index: 1;
+}
+
+/* Make sure the masthead stays on top of everything */
+html[data-theme="dark"] .masthead {
+    z-index: 10;
 }
