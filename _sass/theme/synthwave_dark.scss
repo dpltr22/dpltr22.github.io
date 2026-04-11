@@ -86,9 +86,16 @@ html[data-theme="dark"] body::before {
     50%      { opacity: 0.75; }
 }
 
-/* Nuclear masthead transparency */
+/* Keep content above the shimmer overlay */
+html[data-theme="dark"] #main,
+html[data-theme="dark"] .page__footer {
+    position: relative;
+    z-index: 1;
+}
+
+/* Masthead: normal positioning, transparent, no borders.
+   Sits at the top of the page and scrolls away naturally with the content. */
 html[data-theme="dark"] .masthead,
-html[data-theme="dark"] .masthead *,
 html[data-theme="dark"] .masthead__inner-wrap,
 html[data-theme="dark"] .masthead__menu,
 html[data-theme="dark"] .masthead__menu ul,
@@ -106,7 +113,6 @@ html[data-theme="dark"] .hidden-links {
 
 html[data-theme="dark"] .masthead {
     position: relative;
-    z-index: 10;
 }
 
 /* Violet separator line below the navigation */
@@ -119,18 +125,4 @@ html[data-theme="dark"] .masthead::after {
     height: 2px;
     background: #8a00e7;
     box-shadow: 0 0 8px rgba(138, 0, 231, 0.4);
-    z-index: 11;
-}
-
-/* Sidebar tucks behind the masthead instead of overlapping it */
-html[data-theme="dark"] .sidebar,
-html[data-theme="dark"] .author__avatar,
-html[data-theme="dark"] .author__content,
-html[data-theme="dark"] .author__urls-wrapper {
-    z-index: 5 !important;
-}
-
-/* Make sure the masthead always wins */
-html[data-theme="dark"] .masthead {
-    z-index: 100 !important;
 }
