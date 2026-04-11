@@ -86,17 +86,15 @@ html[data-theme="dark"] body::before {
     50%      { opacity: 0.75; }
 }
 
-/* Keep content above the overlay */
-html[data-theme="dark"] .masthead,
+/* Keep content above the shimmer overlay */
 html[data-theme="dark"] #main,
-html[data-theme="dark"] .sidebar,
-html[data-theme="dark"] .author__avatar,
 html[data-theme="dark"] .page__footer {
     position: relative;
     z-index: 1;
 }
 
-/* Make sure the masthead stays on top of everything */
+/* Masthead stays on top of everything, including the sticky sidebar */
 html[data-theme="dark"] .masthead {
+    position: relative;
     z-index: 10;
 }
