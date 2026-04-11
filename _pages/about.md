@@ -25,14 +25,14 @@ I am further interested in
 
 News
 ======
-June 2026
-: I will present a working paper co-authored with Julius Diener at ECPG in Newcastle
-: I will present a working paper co-authored with Marius Sältzer and Arndt Wonka at EPSS in Belfast
 
+**June 2026**  
+I will present a working paper co-authored with Julius Diener at ECPG in Newcastle.  
+I will present a working paper co-authored with Marius Sältzer and Arndt Wonka at EPSS in Belfast.
 
-Mai 2026
-: I will present a working paper co-authored with Julius Diener at the Colloquium at University of Greifswald.
+**Mai 2026**  
+I will present a working paper co-authored with Julius Diener at the Colloquium at University of Greifswald.
 
-April 2026
-: I will present two of my current working papers at COMPTEXT in Birmingham.
-: I will co-teach a workshop with Alona Dolinsky on Group Appeal Detection.
+**April 2026**  
+I will present two of my current working papers at COMPTEXT in Birmingham.  
+I will co-teach a workshop with Alona Dolinsky on Group Appeal Detection.
