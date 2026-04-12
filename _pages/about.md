@@ -17,11 +17,15 @@ Beyond this, I maintain a strong interest in digital and health policy. I am par
 
 I graduated from the University of Mannheim, Germany, with a BA degree in Political Science and Public Law, and from the University of Zurich, Switzerland, with a MA in Political Science and Methods – Data – Society. Previously I worked as a Research Assistant in several research projects.
 
+---
+
 I am further interested in
 ======
 - Methods of causal inference such as Regression-Discontinuity-Designs.
 - Masculinity and benevolent sexism in politics.
 - Political psychology of citizens news consumption.
+
+---
 
 News
 ======
