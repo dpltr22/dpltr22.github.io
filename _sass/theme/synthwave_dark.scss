@@ -50,10 +50,6 @@ html[data-theme="dark"] {
 }
 
 /* Pink separator line below the navigation */
-html[data-theme="dark"] .masthead {
-    position: relative;
-}
-
 html[data-theme="dark"] .masthead::after {
     content: '';
     position: absolute;
