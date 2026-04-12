@@ -11,11 +11,13 @@ I am a First Year PhD Student of Political Science at the <a href="https://uol.d
 
 My research examines the role of language in political representation, with a particular focus on how legislators communicate and construct political meaning across parliamentary and digital arenas.
 
-My current work investigates the dynamics of personalization and group identity in elite political communication. Drawing on legislative speeches and visual content shared by politicians on social media, I employ computational methods from Natural Language Processing (NLP) and Computer Vision to analyze how representation is performed and contested in contemporary democracies.
+My current work investigates the dynamics of individual politicians interests and group identity in elite political communication. Drawing on legislative speeches and visual content shared by politicians on social media, I employ computational methods from Natural Language Processing (NLP) and Computer Vision to analyze how representation is performed and contested in contemporary democracies.
 
 Beyond this, I maintain a strong interest in digital and health policy. I am particularly concerned with how governments regulate emerging technologies, platform governance, and data protection, as well as the political processes shaping public health systems and how artifical intelligence is integrated ino it.
 
-I graduated from the University of Mannheim, Germany, with a BA degree in Political Science and Public Law, and from the University of Zurich, Switzerland, with a MA in Political Science and Methods – Data – Society. Previously I worked as a Research Assistant in several research projects.
+I graduated from the University of Mannheim, Germany, with a BA degree in Political Science and Public Law, and from the University of Zurich, Switzerland, with a MA in Political Science and Methods – Data – Society. 
+
+Previously I worked as a research assistant in several research projects, please see my <a href="https://dpltr22.github.io//cv/">CV</a>
 
 ---
 
