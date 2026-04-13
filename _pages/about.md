@@ -11,21 +11,21 @@ I am a First Year PhD Student of Political Science at the <a href="https://uol.d
 
 My research examines the role of language in political representation, with a particular focus on how legislators communicate and construct political meaning across parliamentary and digital arenas.
 
-My current work investigates the dynamics of individual politicians interests and group identity in elite political communication. Drawing on legislative speeches and visual content shared by politicians on social media, I employ computational methods from Natural Language Processing (NLP) and Computer Vision to analyze how representation is performed and contested in contemporary democracies.
+My current work investigates the dynamics between individual politicians’ interests and party organization. I focus on group identities in political communication, examining the role of language and images. Drawing on a variety of data sources (e.g., legislative speeches, press release, visual content on social media), I employ computational methods from Natural Language Processing (NLP) and Computer Vision to analyze how political elites form political discourse and fuel political polarization.
 
-Beyond this, I maintain a strong interest in digital and health policy. I am particularly concerned with how governments regulate emerging technologies, platform governance, and data protection, as well as the political processes shaping public health systems and how artifical intelligence is integrated ino it.
+Beyond this, I maintain a strong interest in digital and health policy. I am particularly concerned with how governments regulate emerging technologies, platform governance, and data protection, as well as the political processes shaping public health systems and how artificial intelligence is integrated into it.
 
-I graduated from the University of Mannheim, Germany, with a BA degree in Political Science and Public Law, and from the University of Zurich, Switzerland, with a MA in Political Science and Methods – Data – Society. 
+I graduated from the University of Mannheim, Germany, with a BA degree in Political Science and Public Law, and from the University of Zurich, Switzerland, with a MA in Political Science and Methods – Data – Society.
 
-Previously I worked as a research assistant in several research projects, please see my <a href="https://dpltr22.github.io//cv/">CV</a>
+Before taking up my current position, I worked as a research assistant in several research projects, please see my  <a href="https://dpltr22.github.io//cv/">CV</a> for more information.
 
 ---
 
 I am further interested in
 ======
-- Methods of causal inference such as Regression-Discontinuity-Designs.
+- Methods of causal inference to research health politics.
 - Masculinity and benevolent sexism in politics.
-- Political psychology of citizens news consumption.
+- Political psychology of citizens regarding news consumption and political participation.
 
 ---
 
@@ -41,4 +41,4 @@ Mai 2026
 
 April 2026
 : - I will present two of my current working papers at COMPTEXT in Birmingham.
-: - I will co-teach a workshop with Alona Dolinsky on Group Appeal Detection.
+: - I will co-teach a workshop with Alona Dolinsky on Group Appeal Detection at COMPTEXT in Birmingham.
