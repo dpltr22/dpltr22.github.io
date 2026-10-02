@@ -17,9 +17,11 @@ author_profile: true
 
 ## Working Papers
 
-Diener, Julius, and Dylan Paltra. (2026). How politicians objectify women in political discourse.
+Paltra, Dylan, Julius Diener, Corinna Kroeber. (2026). How politicians objectify women in political discourse.
 
 Paltra, Dylan. (2026). Sitting On The Fence: Examining intra-party heterogeneity in group appeals.
+
+Paltra, Dylan, Marius Sältzer, Arndt Wonka. (2026). Relational Group Frames in Political Debates.
 
 Paltra, Dylan, Bartolomeo Cappellina, Christopher Wratil, Simon Fernezelyi, and Lóránt Ó hAnnracháin. (2024). The Citizens’ Concept of Representation: Evidence from an Open-Ended Questions Survey
 
