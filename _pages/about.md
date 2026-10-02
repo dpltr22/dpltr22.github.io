@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a First Year PhD Student of Political Science at the <a href="https://uol.de/en/social-sciences">Institute for Social Sciences</a> at the Carl von Ossietzky Universität Oldenburg, Germany.
+I am a PhD Student of Political Science at the <a href="https://uol.de/en/social-sciences">Institute for Social Sciences</a> at the Carl von Ossietzky Universität Oldenburg, Germany.
 
 My research examines the role of language in political representation, with a particular focus on how legislators communicate and construct political meaning across parliamentary and digital arenas.
 
