@@ -17,7 +17,7 @@ author_profile: true
 
 ## Working Papers
 
-Paltra, Dylan, Julius Diener, Corinna Kroeber. (2026). How politicians objectify women in political discourse.
+Paltra, Dylan, Julius Diener, Corinna Kroeber. (2026). The agency of women in political debates.
 
 Paltra, Dylan. (2026). Sitting On The Fence: Examining intra-party heterogeneity in group appeals.
 
