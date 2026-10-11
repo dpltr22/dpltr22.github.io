@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Dylan Paltra"
 author_profile: true
 redirect_from: 
   - /about/
@@ -31,6 +31,9 @@ I am further interested in
 
 News
 ======
+
+October 2026
+: - I will join the 1st NORPOL Workshop at the University of Bremen
 
 June 2026 
 : - I will present a working paper co-authored with <a href="https://juliusdiener.com/">Julius Diener</a> at ECPG in Newcastle.
